@@ -11,6 +11,7 @@ Task 2&3. Extract feature curves. DFS and angular constraints
 <img width="366" height="562" alt="image" src="https://github.com/user-attachments/assets/6fee7374-d7ab-470b-a991-63c28ed59ddc" /> <img width="427" height="678" alt="image" src="https://github.com/user-attachments/assets/ed2f4245-e17f-4e5f-bba2-21cb01129c21" />
 
 Task 4. Cluster feature curves as one object based on geometric descriptors(length, curvature, direction, and compactness). Cosine similarity of feature vectors
+
 <img width="241" height="276" alt="image" src="https://github.com/user-attachments/assets/0cb063dd-8274-465f-b1b7-bc46c676ef87" />
 
 Task 5. Evaluates the similarity between two 3D models. Pearson correlation
