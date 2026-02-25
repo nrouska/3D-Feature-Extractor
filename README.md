@@ -23,3 +23,8 @@ Task 5. Evaluates the similarity between two 3D models.
 
 # Pearson correlation
 The system achieved a 88.64% similarity score between two different face portraits
+
+# Set-up 
+1. `conda create --name compgeo python=3.12`
+2. `conda activate compgeo`
+3. `pip install -r requirements.txt`
