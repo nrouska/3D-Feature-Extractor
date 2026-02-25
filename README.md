@@ -1,26 +1,17 @@
 # Recognition of feature lines in 3d models
 Project developed by Natalia Rouska. The tasks and the results are shown below:
 
-Input: 3D meshes with known connectivity
+Input: 3D meshes with known connectivity (.ply)
 
-Task 1.Sort all points of a 3D shape according to whether they are on a vertex, edge, or flat area.
-For this specific query, the eigenvalues of the covariance matrix of small patches can be analyzed and classified based on these values.
+Task 1. Sort all points of a 3D shape according to whether they are on a vertex, edge, or flat area.  PCA Analysis in small patches
+<img width="462" height="626" alt="image" src="https://github.com/user-attachments/assets/8ca53e8e-5a10-478f-98d3-9fd505a69c11" />
 
-Task 2.Use the previous classification to find features
-lines (feature curves) defined e.g. from continuous edge points. For
-for example, in a 3D face the points that define the outline of an eye
-represent a characteristic line.
+Task 2&3. Extract feature curves. DFS and angular constraints
 
-Task 3.In the case that in a 3D shape there are more than one distinct
-feature lines appear in a different color. Eventually we will
-as many colors as the different characteristic lines that have been found.
+<img width="366" height="562" alt="image" src="https://github.com/user-attachments/assets/6fee7374-d7ab-470b-a991-63c28ed59ddc" /> <img width="427" height="678" alt="image" src="https://github.com/user-attachments/assets/ed2f4245-e17f-4e5f-bba2-21cb01129c21" />
 
-Task 4.In the event that two most distinct characteristic lines of a 3D
-model, have common features, e.g. same shape, area, surface, distribution
-normals, to be recognized as an object. For example the two
-characteristic lines representing the outline of two eyes in one
-person, to be recognized as belonging to the same class.
+Task 4. Cluster feature curves as one object based on geometric descriptors(length, curvature, direction, and compactness). Cosine similarity of feature vectors
+<img width="241" height="276" alt="image" src="https://github.com/user-attachments/assets/0cb063dd-8274-465f-b1b7-bc46c676ef87" />
 
-Task 5.Find the similarity percentage of different models based on these
-characteristics you have identified in a previous query. For example if
-two human faces are given to be recognized as belonging to the same class.
+Task 5. Evaluates the similarity between two 3D models. Pearson correlation
+The system achieved a 88.64% similarity score between two different face portraits
