@@ -4,8 +4,11 @@ Project developed by Natalia Rouska. The tasks and the results are shown below:
 Input: 3D meshes with known connectivity (.ply)
 
 Task 1. Sort all points of a 3D shape according to whether they are on a vertex, edge, or flat area.  
+
 Task 2&3. Extract feature curves. 
+
 Task 4. Cluster feature curves as one object based on geometric descriptors(length, curvature, direction, and compactness).
+
 Task 5. Evaluates the similarity between two 3D models.
 # PCA Analysis in small patches
 <img width="462" height="626" alt="image" src="https://github.com/user-attachments/assets/8ca53e8e-5a10-478f-98d3-9fd505a69c11" />
