@@ -1,5 +1,5 @@
 # Recognition of feature lines in 3d models
-Project developed by Natalia Rouska. (vvrpywork is a package developed by the members of the lab) The tasks and the results are shown:
+Project for 3d Computational Geometry and Computer Vision course developed by Natalia Rouska. (vvrpywork is a package developed by the members of the lab) The tasks and the results are shown:
 
 Input: 3D meshes with known connectivity (.ply)
 
